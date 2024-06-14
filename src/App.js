@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
+import Login from './components/login';
+//check for L and l in uper component 
 
-function App() {
-  return (
-    <div>App</div>
-  )
+export default function App() {
+  return <div><Login/></div>
+  
 }
-
-export default App
